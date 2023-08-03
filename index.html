@@ -4,13 +4,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Header -->
 					<header id="header">
 						<div class="logo"><img src="images/gem.jpg" alt="" /></div>
@@ -25,36 +24,48 @@
 								<li><a href="#webdevelopment">Web Development</a></li>
 								<li><a href="#machinelearning">Machine Learning</a></li>
 								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Elements</a></li>
+								<!-- <li><a href="#contact">Contact</a></li> -->
+								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
 						</nav>
 					</header>
-
 				<!-- Main -->
 					<div id="main">
-
 						<!-- webdevelopment -->
 							<article id="webdevelopment">
-								<h2 class="major">Web Development</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>This is where I plan to list all my web development mini projects.</p>
-								<p>Could be an alternating table with preview and short description of the project, then a link to the github codes or if it's hosted, a direct link to the site.</p>
-								<p>Or why not just host it here if in case this will be hosted in the future?</p>
+								<div>
+									<h2 class="major">Web Development</h2>
+									<p>A list of all my mini web development projects. Will add more during free time.</p>
+								</div>
+								<section class="projects">
+									<section class="project">
+										<img src="images/oauth.png" alt="">
+										<div class="content">
+											<h3>Login via OAuth</h3>
+											<p>Sample OAuth login for commonly used third-party apps</p>
+											<a class="repo" target="_blank" href="https://github.com/vratengr/oauth">GitHub Repo</a>
+										</div>
+									</section>
+								</section>
 							</article>
 
 						<!-- machinelearning -->
 							<article id="machinelearning">
 								<h2 class="major">Machine Learning</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image main"><img src="images/placeholder.jpg" alt="" /></span>
 								<p>Space for my ML codes in the future</p>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About Me</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Well, about me? Not really a blogger type. Maybe I should ask ChatGPT to write more about me. 🤔 Something quixotic 🤭🤫 Or you can bear with me and see my boring LinkedIn profile 🥰</p>
+								<span class="image main"><img src="images/about.jpg" alt="" /></span>
+								<div>Well, about me? Not really a blogger type. Maybe I should ask ChatGPT to write more about me. 🤔 Something quixotic 🤭🤫 Or you can bear with me and see my other profiles: 🥰</div>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/vratengr" target="_blank" class="icon brands fa-linkedin-in" title="LinkedIn"></a></li>
+									<li><a href="https://github.com/vratengr" target="_blank" class="icon brands fa-github" title="GitHub"></a></li>
+									<li><a href="https://www.upwork.com/freelancers/~01ebeab2045a16e703" target="_blank" class="icon brands" title="Upwork"><img src="assets/icons/upwork.svg"></a></li>
+								</ul>
 							</article>
 
 						<!-- Contact -->
@@ -80,11 +91,6 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands fa-certificate"><span class="label">Certificates</span></a></li>
-								</ul>
 							</article>
 
 						<!-- Elements -->
@@ -106,15 +112,7 @@
 									<h4>Blockquote</h4>
 									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									<pre><code>echo 'Hello World!';</code></pre>
 								</section>
 
 								<section>
@@ -328,9 +326,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 							</article>
-
 					</div>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<p class="copyright">
@@ -338,18 +334,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<br/>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.
 						</p>
 					</footer>
-
 			</div>
-
 		<!-- BG -->
 			<div id="bg"></div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/custom.js"></script>
 	</body>
 </html>
