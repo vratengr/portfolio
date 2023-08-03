@@ -52,7 +52,12 @@
     justify-content: center;
     margin-top: 1rem
 }
-#main #about .icons img {
-    position: relative;
-    top: 13px;
+#main #about .icons .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #about .icons .image img {
+    width: 50%;
+    height: 50%;
 }
