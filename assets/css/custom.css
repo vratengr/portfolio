@@ -20,7 +20,7 @@
 #main #webdevelopment .projects .project .content h3 {
     margin: 0 0 1rem 0;
 }
-#main #webdevelopment .projects .project .content a {
+#main #webdevelopment .projects .project .content a:not(.inline) {
     display: block;
     border-bottom: 0;
     font-size: 0.8em;
